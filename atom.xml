@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaoacaia.github.io/"/>
-  <updated>2020-03-12T05:03:12.059Z</updated>
+  <updated>2020-03-12T05:50:49.202Z</updated>
   <id>https://xiaoacaia.github.io/</id>
   
   <author>
@@ -21,7 +21,7 @@
     <link href="https://xiaoacaia.github.io/2020/03/12/hexobuilding/"/>
     <id>https://xiaoacaia.github.io/2020/03/12/hexobuilding/</id>
     <published>2020-03-12T05:01:24.000Z</published>
-    <updated>2020-03-12T05:03:12.059Z</updated>
+    <updated>2020-03-12T05:50:49.202Z</updated>
     
     <summary type="html">
     
@@ -29,15 +29,22 @@
       
         
         
-          &lt;h1&gt;关于&lt;/h1&gt;
-之前也试了了，懒得弄了，还是直接写源码好些
-不然一切都要按着别人的意识，难受
+          &lt;pre&gt;&lt;code&gt;@-webkit-keyframes rainbow {
+
+    0%,
+    100% {
+        background: rgba(156, 39, 176, 0.75);
+        background:
         
       
     
     </summary>
     
     
+      <category term="front" scheme="https://xiaoacaia.github.io/categories/front/"/>
+    
+    
+      <category term="front" scheme="https://xiaoacaia.github.io/tags/front/"/>
     
   </entry>
   
