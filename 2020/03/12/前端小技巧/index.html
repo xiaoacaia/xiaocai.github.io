@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Hello World, Blog">
+    <meta name="keywords" content="前端小技巧, Blog">
     <meta name="description" content="">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Hello World | Blog</title>
+    <title>前端小技巧 | Blog</title>
     <link rel="icon" type="image/png" href="/favicon.png">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -244,12 +244,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('http://img.netbian.com/file/2020/0304/83f4b8dc41fe069de22b7e736c580497.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('http://pic1.win4000.com/wallpaper/2018-08-18/5b778987a1b1a.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Hello World</h1>
+                    <h1 class="description center-align post-title">前端小技巧</h1>
                 </div>
             </div>
         </div>
@@ -364,12 +364,25 @@
             <div class="row tag-cate">
                 <div class="col s7">
                     
-                          <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
-                          </div>
+                    <div class="article-tag">
+                        
+                            <a href="/tags/front/">
+                                <span class="chip bg-color">front</span>
+                            </a>
+                        
+                    </div>
                     
                 </div>
                 <div class="col s5 right-align">
+                    
+                    <div class="post-cate">
+                        <i class="fas fa-bookmark fa-fw icon-category"></i>
+                        
+                            <a href="/categories/front/" class="post-category">
+                                front
+                            </a>
+                        
+                    </div>
                     
                 </div>
             </div>
@@ -395,16 +408,25 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>Welcome to <a href="https://hexo.io/" target="_blank" rel="noopener">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="noopener">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="noopener">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="noopener">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><pre class=" language-bash"><code class="language-bash">$ hexo new <span class="token string">"My New Post"</span></code></pre>
-<p>More info: <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><pre class=" language-bash"><code class="language-bash">$ hexo server</code></pre>
-<p>More info: <a href="https://hexo.io/docs/server.html" target="_blank" rel="noopener">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><pre class=" language-bash"><code class="language-bash">$ hexo generate</code></pre>
-<p>More info: <a href="https://hexo.io/docs/generating.html" target="_blank" rel="noopener">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><pre class=" language-bash"><code class="language-bash">$ hexo deploy</code></pre>
-<p>More info: <a href="https://hexo.io/docs/one-command-deployment.html" target="_blank" rel="noopener">Deployment</a></p>
-
+                <h3 id="动态标签栏"><a href="#动态标签栏" class="headerlink" title="动态标签栏"></a>动态标签栏</h3><pre><code>&lt;script type=&quot;text/javascript&quot;&gt; var OriginTitile = document.title, st; 
+    document.addEventListener(&quot;visibilitychange&quot;, function () { document.hidden ? (document.title = &quot;Σ(っ °Д °;)っ不要走啊~~~&quot;, clearTimeout(st)) : (document.title = &quot;φ(゜▽゜*)♪来了老弟❤&quot;, st = setTimeout(function () { document.title = OriginTitile }, 3e3)) }) &lt;/script&gt;</code></pre><p><img src="../images/QQ%E6%88%AA%E5%9B%BE20200312145352.png" alt=""></p>
+<h3 id="div图片"><a href="#div图片" class="headerlink" title="div图片"></a>div图片</h3><pre class=" language-css"><code class="language-css">  <span class="token selector"><span class="token id">#app</span></span><span class="token punctuation">{</span>
+  <span class="token property">height</span><span class="token punctuation">:</span> <span class="token number">721</span>px<span class="token punctuation">;</span>
+  <span class="token property">background-image</span><span class="token punctuation">:</span> <span class="token url">url(../assets/灶门祢豆子.jpg)</span><span class="token punctuation">;</span>
+  <span class="token property">background-size</span><span class="token punctuation">:</span> <span class="token number">100%</span> auto<span class="token punctuation">;</span>
+  <span class="token property">background-repeat</span><span class="token punctuation">:</span> no-repeat<span class="token punctuation">;</span>
+  <span class="token punctuation">}</span></code></pre>
+<h3 id="去除空白"><a href="#去除空白" class="headerlink" title="去除空白"></a>去除空白</h3><pre class=" language-css"><code class="language-css"><span class="token selector">*</span><span class="token punctuation">{</span>
+    <span class="token property">padding</span><span class="token punctuation">:</span><span class="token number">0</span>px<span class="token punctuation">;</span>
+    <span class="token property">margin</span><span class="token punctuation">:</span><span class="token number">0</span>px<span class="token punctuation">;</span>
+    <span class="token property">border</span><span class="token punctuation">:</span><span class="token number">0</span>px<span class="token punctuation">;</span>
+<span class="token punctuation">}</span></code></pre>
+<h3 id="看div大小"><a href="#看div大小" class="headerlink" title="看div大小"></a>看div大小</h3><pre class=" language-css"><code class="language-css"> <span class="token property">border</span><span class="token punctuation">:</span><span class="token number">5</span>px solid red<span class="token punctuation">;</span></code></pre>
+<h3 id="改变鼠标"><a href="#改变鼠标" class="headerlink" title="改变鼠标"></a>改变鼠标</h3><pre class=" language-css"><code class="language-css"><span class="token selector">*</span><span class="token punctuation">{</span>
+    <span class="token property">cursor</span><span class="token punctuation">:</span><span class="token url">url(../images/shubiao.ico)</span>,auto<span class="token punctuation">;</span>
+<span class="token punctuation">}</span>
+<span class="token comment" spellcheck="true">/* 一定要加,的呀 */</span></code></pre>
+<pre><code>https://www.easyicon.net/covert/        #转ico网址</code></pre>
             </div>
             <hr/>
 
@@ -429,7 +451,7 @@
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://xiaoacaia.github.io/2020/03/12/hello-world/">https://xiaoacaia.github.io/2020/03/12/hello-world/</a>
+                    <a href="https://xiaoacaia.github.io/2020/03/12/%E5%89%8D%E7%AB%AF%E5%B0%8F%E6%8A%80%E5%B7%A7/">https://xiaoacaia.github.io/2020/03/12/%E5%89%8D%E7%AB%AF%E5%B0%8F%E6%8A%80%E5%B7%A7/</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -466,7 +488,11 @@
                 <div class="post-meta__tag-list" style="display: inline-block;">
                     
                         <div class="article-tag">
-                            <span class="chip bg-color">无标签</span>
+                            
+                                <a href="/tags/front/">
+                                    <span class="chip bg-color">front</span>
+                                </a>
+                            
                         </div>
                     
                 </div>
@@ -634,19 +660,26 @@
             <div class="article-badge left-badge text-color">
                 <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/2020/03/12/%E5%89%8D%E7%AB%AF%E5%B0%8F%E6%8A%80%E5%B7%A7/">
+                <a href="/2020/03/12/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/">
                     <div class="card-image">
                         
-                        <img src="http://pic1.win4000.com/wallpaper/2018-08-18/5b778987a1b1a.jpg" class="responsive-img" alt="前端小技巧">
                         
-                        <span class="card-title">前端小技巧</span>
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="关于学习">
+                        
+                        <span class="card-title">关于学习</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            动态标签栏&lt;script type=&quot;text/javascript&quot;&gt; var OriginTitile = document.title, st; 
-    document.addEventListen
+                            
+扎实的基础技术。
+非同一般的学习能力。
+坚持做正确的事。
+不断得高对自己的要求标准。
+
+基础技术系统和编程
+系统部分计算机系统原理：CPU 的体系结构（指令集 [CISC/RISC]、分支预测、缓存结构、总线、DMA、中断、陷阱、多任务、
                         
                     </div>
                     <div class="publish-info">
@@ -655,23 +688,11 @@
                         </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/front/" class="post-category">
-                                    front
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Zhang
                             
                         </span>
                     </div>
-                </div>
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/front/">
-                        <span class="chip bg-color">front</span>
-                    </a>
-                    
                 </div>
                 
             </div>
@@ -680,7 +701,7 @@
         
         <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge right-badge text-color">
-                本篇&nbsp;<i class="far fa-dot-circle"></i>
+                下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
                 <a href="/2020/03/12/hello-world/">
@@ -709,7 +730,6 @@
                         </span>
                     </div>
                 </div>
-
                 
             </div>
         </div>

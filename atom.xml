@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://xiaoacaia.github.io/"/>
-  <updated>2020-03-12T06:12:30.265Z</updated>
+  <updated>2020-03-12T07:00:35.275Z</updated>
   <id>https://xiaoacaia.github.io/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>hexobuilding</title>
-    <link href="https://xiaoacaia.github.io/2020/03/12/hexobuilding/"/>
-    <id>https://xiaoacaia.github.io/2020/03/12/hexobuilding/</id>
-    <published>2020-03-12T05:01:24.000Z</published>
-    <updated>2020-03-12T06:12:30.265Z</updated>
+    <title>关于学习</title>
+    <link href="https://xiaoacaia.github.io/2020/03/12/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/"/>
+    <id>https://xiaoacaia.github.io/2020/03/12/%E5%85%B3%E4%BA%8E%E5%AD%A6%E4%B9%A0/</id>
+    <published>2020-03-12T06:59:11.000Z</published>
+    <updated>2020-03-12T07:00:35.275Z</updated>
     
     <summary type="html">
     
@@ -29,12 +29,34 @@
       
         
         
-          &lt;pre&gt;&lt;code&gt;@-webkit-keyframes rainbow {
-
-    0%,
-    100% {
-        background: rgba(156, 39, 176, 0.75);
-        background:
+          &lt;ul&gt;
+&lt;li&gt;&lt;strong&gt;扎实的基础技术&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;非同一般的学习能力&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;坚持做正确的事&lt;/strong&gt;。&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;不断得高对自己的要求标准&lt;/st
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>前端小技巧</title>
+    <link href="https://xiaoacaia.github.io/2020/03/12/%E5%89%8D%E7%AB%AF%E5%B0%8F%E6%8A%80%E5%B7%A7/"/>
+    <id>https://xiaoacaia.github.io/2020/03/12/%E5%89%8D%E7%AB%AF%E5%B0%8F%E6%8A%80%E5%B7%A7/</id>
+    <published>2020-03-12T05:01:24.000Z</published>
+    <updated>2020-03-12T06:58:26.590Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h3 id=&quot;动态标签栏&quot;&gt;&lt;a href=&quot;#动态标签栏&quot; class=&quot;headerlink&quot; title=&quot;动态标签栏&quot;&gt;&lt;/a&gt;动态标签栏&lt;/h3&gt;&lt;pre&gt;&lt;code&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
         
       
     
