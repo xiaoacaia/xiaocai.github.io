@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Blog</title>
+  
+  <subtitle>xiaocai</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://xiaoacaia.github.io/"/>
+  <updated>2020-03-12T05:03:12.059Z</updated>
+  <id>https://xiaoacaia.github.io/</id>
+  
+  <author>
+    <name>Zhang</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexobuilding</title>
+    <link href="https://xiaoacaia.github.io/2020/03/12/hexobuilding/"/>
+    <id>https://xiaoacaia.github.io/2020/03/12/hexobuilding/</id>
+    <published>2020-03-12T05:01:24.000Z</published>
+    <updated>2020-03-12T05:03:12.059Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1&gt;关于&lt;/h1&gt;
+之前也试了了，懒得弄了，还是直接写源码好些
+不然一切都要按着别人的意识，难受
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://xiaoacaia.github.io/2020/03/12/hello-world/"/>
+    <id>https://xiaoacaia.github.io/2020/03/12/hello-world/</id>
+    <published>2020-03-12T02:51:14.145Z</published>
+    <updated>2020-03-12T02:51:14.145Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;Welcome to &lt;a href=&quot;https://hexo.io/&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;Hexo&lt;/a&gt;! This is your very first post. Check &lt;a
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+</feed>
